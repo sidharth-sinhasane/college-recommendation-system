@@ -23,6 +23,11 @@ body {
     margin: 0 auto;
 }
 
+#gender-selecter{
+    display: flex;
+    align-content: space-evenly;
+}
+
 /* Styling for each input element */
 .inputelements {
     margin-bottom: 15px;
