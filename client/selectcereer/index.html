@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Status Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../images/fevicon.png" type="image/x-icon">
+</head>
+<body>
+
+<div id="form-container">
+    <h2>Select Exams You've Given</h2>
+    <form id="examForm">
+        <div class="form-group">
+            <input type="checkbox" id="jee" name="exams" value="JEE">
+            <label for="jee">JEE</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="neet" name="exams" value="NEET">
+            <label for="neet">NEET</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="cet-pcm" name="exams" value="CET-PCM">
+            <label for="cet-pcm">CET-PCM</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="jee-advance" name="exams" value="JEE Advance">
+            <label for="jee-advance">JEE Advance</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="commerce-12" name="exams" value="12th Commerce">
+            <label for="commerce-12">12th Commerce</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="bitsat" name="exams" value="BITSAT">
+            <label for="bitsat">BITSAT</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="vitee" name="exams" value="VITEEE">
+            <label for="vitee">VITEEE</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="gujcet" name="exams" value="GUJCET">
+            <label for="gujcet">GUJCET</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="cuet" name="exams" value="CUET">
+            <label for="cuet">CUET</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="arts-12" name="exams" value="12th Arts">
+            <label for="arts-12">12th Arts</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="diploma-engineering" name="exams" value="Diploma in Engineering">
+            <label for="diploma-engineering">Diploma in Engineering</label>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="cet-pcb" name="exams" value="CET-PCB">
+            <label for="cet-pcb">CET-PCB</label>
+        </div>
+    </form>
+    <button type="button" class="submit-btn" id="submit-btn" onclick="submitForm()">Submit</button>
+
+    <div id="result" class="result" style="display: none;"></div>
+</div>
+
+
+</body>
+
+<script src="script.js"></script>
+</html>
