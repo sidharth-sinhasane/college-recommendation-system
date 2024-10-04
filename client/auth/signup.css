@@ -87,3 +87,6 @@ h2 {
 .login-btn:hover {
     background-color: #5a6268;
 }
+.button{
+    width: 200px;
+}
