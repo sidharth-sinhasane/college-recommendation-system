@@ -1,17 +1,13 @@
 let email=""
 let password=""
-let sign_up=false
+let issignup=false
 
 function signup(){
     email=document.getElementById("email")
     password=document.getElementById("password")
-    sign_up=true
+    issignup=true
 
     console.log(password,email)
 }
 
-function login(){
-    if(!sign_up){
-
-    }
-}
+export{email,password,issignup}
