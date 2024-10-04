@@ -38,7 +38,10 @@ body {
     margin-bottom: 5px;
     color: #555;
 }
-
+.genderfield{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .inputelements input[type="text"] {
     width: 100%;
     padding: 8px;
