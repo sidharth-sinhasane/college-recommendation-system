@@ -76,12 +76,14 @@ function analyse(){
     
     let name=document.getElementById("fullname").value;
     const percentile=parseFloat(document.getElementById("percentile").value);
-    const gender=document.getElementById("gender").value;
+    let gender=false;
     let location=document.getElementById("location").value;
     console.log(location,"type",typeof(location))
     location=location.toLowerCase()
 
-    
+    if(document.getElementById("female").value==true){
+        gender=true;
+    }
     ans=[]
    
 
